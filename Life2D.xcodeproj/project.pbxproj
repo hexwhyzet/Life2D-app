@@ -13,7 +13,7 @@
 		DB20A9C4246798DD00EF2F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB20A9C2246798DD00EF2F13 /* Main.storyboard */; };
 		DB20A9C6246798DE00EF2F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB20A9C5246798DE00EF2F13 /* Assets.xcassets */; };
 		DB20A9C9246798DE00EF2F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB20A9C7246798DE00EF2F13 /* LaunchScreen.storyboard */; };
-		DB20A9D124679C1600EF2F13 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB20A9D024679C1600EF2F13 /* Field.swift */; };
+		DB20A9D124679C1600EF2F13 /* GameCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB20A9D024679C1600EF2F13 /* GameCore.swift */; };
 		DB2B1A8C246A50F0006D7C58 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B1A8B246A50F0006D7C58 /* Storage.swift */; };
 		DB30D6262468CDDE007BE794 /* MyTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = DB30D6252468CDDE007BE794 /* MyTileSet.sks */; };
 /* End PBXBuildFile section */
@@ -27,7 +27,7 @@
 		DB20A9C5246798DE00EF2F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB20A9C8246798DE00EF2F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB20A9CA246798DE00EF2F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB20A9D024679C1600EF2F13 /* Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		DB20A9D024679C1600EF2F13 /* GameCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCore.swift; sourceTree = "<group>"; };
 		DB2B1A8B246A50F0006D7C58 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		DB30D6252468CDDE007BE794 /* MyTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyTileSet.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +69,7 @@
 				DB20A9C5246798DE00EF2F13 /* Assets.xcassets */,
 				DB20A9C7246798DE00EF2F13 /* LaunchScreen.storyboard */,
 				DB20A9CA246798DE00EF2F13 /* Info.plist */,
-				DB20A9D024679C1600EF2F13 /* Field.swift */,
+				DB20A9D024679C1600EF2F13 /* GameCore.swift */,
 				DB2B1A8B246A50F0006D7C58 /* Storage.swift */,
 				DB30D6252468CDDE007BE794 /* MyTileSet.sks */,
 			);
@@ -150,7 +150,7 @@
 			files = (
 				DB20A9BF246798DD00EF2F13 /* GameScene.swift in Sources */,
 				DB20A9C1246798DD00EF2F13 /* GameViewController.swift in Sources */,
-				DB20A9D124679C1600EF2F13 /* Field.swift in Sources */,
+				DB20A9D124679C1600EF2F13 /* GameCore.swift in Sources */,
 				DB20A9B9246798DD00EF2F13 /* AppDelegate.swift in Sources */,
 				DB2B1A8C246A50F0006D7C58 /* Storage.swift in Sources */,
 			);
